@@ -41,7 +41,7 @@ architecture rtl of TopLevel is
 ---------------
 begin
 
-	HEX0 <= HEX0(0) and (not HEX0(1)) and HEX0(2) and HEX0(3) and (not HEX0(4)) and (not HEX0(5)) and HEX0(6);
+	LEDR(0) <= (not((SW(0) and SW(1)) or SW(1))) or (SW(2) nand (SW(0) and SW(1)));
 	
 
 end rtl;
