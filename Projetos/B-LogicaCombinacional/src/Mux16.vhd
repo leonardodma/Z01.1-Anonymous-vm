@@ -12,5 +12,6 @@ end entity;
 architecture arch of Mux16 is
 begin
 
+	q <= (a AND NOT sel) OR (b AND sel);
 
 end architecture;
