@@ -14,5 +14,9 @@ end entity;
 architecture arch of Mux4Way is
 begin
 
+	q <= a WHEN sel="00" ELSE
+	     b WHEN sel="01" ELSE
+		 c WHEN sel="10" ELSE
+		 d;
 
 end architecture;
