@@ -1,5 +1,9 @@
 {
-	"nome": "",
-	"email-insper": "",
-	"user-github": ""
+<<<<<<< HEAD
+	"nome": "Daniel Costa Delattre",
+=======
+	"nome": "daniel costa delattre",
+>>>>>>> 127679fec0124d696af6278cbd9fbefade7b46e9
+	"email-insper": "danielcd3@al.insper.edu.br",
+	"user-github": "delattre1"
 }
