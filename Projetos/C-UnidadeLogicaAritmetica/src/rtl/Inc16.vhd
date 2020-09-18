@@ -29,6 +29,9 @@ architecture rtl of Inc16 is
   end component;
 
 begin
-  -- Implementação vem aqui!
+
+  u: Add16 port map(
+    q <= (a + b)
+  );
 
 end architecture;
