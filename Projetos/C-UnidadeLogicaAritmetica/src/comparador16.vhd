@@ -4,6 +4,7 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
+use IEEE.STD_LOGIC_SIGNED.all;
 
 entity comparador16 is
    port(
@@ -14,11 +15,8 @@ entity comparador16 is
 end comparador16;
 
 architecture rtl of comparador16 is
-  -- Aqui declaramos sinais (fios auxiliares)
-  -- e componentes (outros módulos) que serao
-  -- utilizados nesse modulo.
-
+  
 begin
-  -- Implementação vem aqui!
-
+  zr<= '1' when a = "0" else '0';
+  ng<= '1' when a<"0" else '0'; 
 end architecture;
