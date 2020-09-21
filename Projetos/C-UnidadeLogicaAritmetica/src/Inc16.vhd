@@ -30,7 +30,7 @@ architecture rtl of Inc16 is
 
 begin
 
-  u: Add16 port map(
+  u1: Add16 port map(
     a => "0000000000000001",
     b => a,
     q => q
