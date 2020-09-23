@@ -34,6 +34,6 @@ begin
     a => "0000000000000001",
     b => a,
     q => q
-  )
+  );
 
 end architecture;
