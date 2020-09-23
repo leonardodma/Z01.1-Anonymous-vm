@@ -8,9 +8,12 @@ entity sevenSeg is
 end entity;
 
 architecture arch of sevenSeg is
+
+signal s_leds : std_logic_vector(6 downto 0);
+
 begin
 
-	leds <= "0000001" when bcd = "0000" else   
+	s_leds <= "0000001" when bcd = "0000" else   
 		"1001111" when bcd = "0001" else 
 		"0010010" when bcd = "0010" else
 		"0000110" when bcd = "0011" else
@@ -26,6 +29,12 @@ begin
 		"1000010" when bcd = "1101" else
 		"0110000" when bcd = "1110" else
 		"0111000";
+		
+		gen: for i in 0 to 6 generate
+			leds(i) <= s_leds(6-i);		
+		end generate;
+		
+
 end architecture;
 
 

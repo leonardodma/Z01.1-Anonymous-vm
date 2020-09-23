@@ -29,6 +29,7 @@ architecture rtl of Add16 is
   end component;
 
 begin
-  -- Implementação vem aqui!
+
+  
 
 end architecture;
