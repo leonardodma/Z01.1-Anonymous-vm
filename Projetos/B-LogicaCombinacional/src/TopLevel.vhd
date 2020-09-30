@@ -21,7 +21,9 @@ entity TopLevel is
 	port(
 		CLOCK_50 : in  std_logic;
 		SW       : in  std_logic_vector(9 downto 0);
+		HEX0     : out std_logic_vector(6 downto 0); -- 7 seg0
 		LEDR     : out std_logic_vector(9 downto 0)
+		
 	);
 end entity;
 
@@ -38,6 +40,8 @@ architecture rtl of TopLevel is
 -- implementacao
 ---------------
 begin
-          
+
+	LEDR(0) <= (not((SW(0) and SW(1)) or SW(1))) or (SW(2) nand (SW(0) and SW(1)));
+	
 
 end rtl;
