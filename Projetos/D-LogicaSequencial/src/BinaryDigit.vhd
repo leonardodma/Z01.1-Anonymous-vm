@@ -35,7 +35,6 @@ architecture arch of BinaryDigit is
 	end component;
 
 	signal dffout,muxout: std_logic;
-	signal asdia: std_logic;
 
 
 begin
