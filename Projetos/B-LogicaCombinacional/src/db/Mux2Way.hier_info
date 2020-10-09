@@ -1,0 +1,8 @@
+|Mux2Way
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+

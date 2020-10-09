@@ -1,0 +1,52 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/daniel/Desktop/Materias/3sem/elemsist/Z01.1-Anonymous/Projetos/B-LogicaCombinacional/src
+Emux2way
+Z1 w1602208523
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 14
+R0
+Z4 8/tmp/nvimedp6vV/17/Mux2Way.vhd
+Z5 F/tmp/nvimedp6vV/17/Mux2Way.vhd
+l0
+L4 1
+VzOWc`e>LM9Jj;zT5=RiS;0
+!s100 L]VTV_?L9fN8g2_`K9nZQ2
+Z6 OV;C;2020.1;71
+33
+Z7 !s110 1602208523
+!i10b 1
+Z8 !s108 1602208523.000000
+Z9 !s90 -2008|-quiet|-lint|/tmp/nvimedp6vV/17/Mux2Way.vhd|
+!s107 /tmp/nvimedp6vV/17/Mux2Way.vhd|
+!i113 1
+Z10 o-quiet -2008 -lint
+Z11 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+Z12 DEx4 work 7 mux2way 0 22 zOWc`e>LM9Jj;zT5=RiS;0
+!i122 14
+l13
+Z13 L12 9
+Z14 VLlFX3LM<HPZ@RXhA09LzA3
+Z15 !s100 nz79lLIUJN6U<0d9?OINa2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+Z16 !s107 /tmp/nvimedp6vV/17/Mux2Way.vhd|
+!i113 1
+R10
+R11
