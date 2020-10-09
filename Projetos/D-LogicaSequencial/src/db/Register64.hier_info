@@ -1,0 +1,3271 @@
+|Register64
+clock => Register32:Register32_1.clock
+clock => Register32:Register32_2.clock
+input[0] => Register32:Register32_2.input[0]
+input[1] => Register32:Register32_2.input[1]
+input[2] => Register32:Register32_2.input[2]
+input[3] => Register32:Register32_2.input[3]
+input[4] => Register32:Register32_2.input[4]
+input[5] => Register32:Register32_2.input[5]
+input[6] => Register32:Register32_2.input[6]
+input[7] => Register32:Register32_2.input[7]
+input[8] => Register32:Register32_2.input[8]
+input[9] => Register32:Register32_2.input[9]
+input[10] => Register32:Register32_2.input[10]
+input[11] => Register32:Register32_2.input[11]
+input[12] => Register32:Register32_2.input[12]
+input[13] => Register32:Register32_2.input[13]
+input[14] => Register32:Register32_2.input[14]
+input[15] => Register32:Register32_2.input[15]
+input[16] => Register32:Register32_2.input[16]
+input[17] => Register32:Register32_2.input[17]
+input[18] => Register32:Register32_2.input[18]
+input[19] => Register32:Register32_2.input[19]
+input[20] => Register32:Register32_2.input[20]
+input[21] => Register32:Register32_2.input[21]
+input[22] => Register32:Register32_2.input[22]
+input[23] => Register32:Register32_2.input[23]
+input[24] => Register32:Register32_2.input[24]
+input[25] => Register32:Register32_2.input[25]
+input[26] => Register32:Register32_2.input[26]
+input[27] => Register32:Register32_2.input[27]
+input[28] => Register32:Register32_2.input[28]
+input[29] => Register32:Register32_2.input[29]
+input[30] => Register32:Register32_2.input[30]
+input[31] => Register32:Register32_2.input[31]
+input[32] => Register32:Register32_1.input[0]
+input[33] => Register32:Register32_1.input[1]
+input[34] => Register32:Register32_1.input[2]
+input[35] => Register32:Register32_1.input[3]
+input[36] => Register32:Register32_1.input[4]
+input[37] => Register32:Register32_1.input[5]
+input[38] => Register32:Register32_1.input[6]
+input[39] => Register32:Register32_1.input[7]
+input[40] => Register32:Register32_1.input[8]
+input[41] => Register32:Register32_1.input[9]
+input[42] => Register32:Register32_1.input[10]
+input[43] => Register32:Register32_1.input[11]
+input[44] => Register32:Register32_1.input[12]
+input[45] => Register32:Register32_1.input[13]
+input[46] => Register32:Register32_1.input[14]
+input[47] => Register32:Register32_1.input[15]
+input[48] => Register32:Register32_1.input[16]
+input[49] => Register32:Register32_1.input[17]
+input[50] => Register32:Register32_1.input[18]
+input[51] => Register32:Register32_1.input[19]
+input[52] => Register32:Register32_1.input[20]
+input[53] => Register32:Register32_1.input[21]
+input[54] => Register32:Register32_1.input[22]
+input[55] => Register32:Register32_1.input[23]
+input[56] => Register32:Register32_1.input[24]
+input[57] => Register32:Register32_1.input[25]
+input[58] => Register32:Register32_1.input[26]
+input[59] => Register32:Register32_1.input[27]
+input[60] => Register32:Register32_1.input[28]
+input[61] => Register32:Register32_1.input[29]
+input[62] => Register32:Register32_1.input[30]
+input[63] => Register32:Register32_1.input[31]
+load => Register32:Register32_1.load
+load => Register32:Register32_2.load
+output[0] << Register32:Register32_2.output[0]
+output[1] << Register32:Register32_2.output[1]
+output[2] << Register32:Register32_2.output[2]
+output[3] << Register32:Register32_2.output[3]
+output[4] << Register32:Register32_2.output[4]
+output[5] << Register32:Register32_2.output[5]
+output[6] << Register32:Register32_2.output[6]
+output[7] << Register32:Register32_2.output[7]
+output[8] << Register32:Register32_2.output[8]
+output[9] << Register32:Register32_2.output[9]
+output[10] << Register32:Register32_2.output[10]
+output[11] << Register32:Register32_2.output[11]
+output[12] << Register32:Register32_2.output[12]
+output[13] << Register32:Register32_2.output[13]
+output[14] << Register32:Register32_2.output[14]
+output[15] << Register32:Register32_2.output[15]
+output[16] << Register32:Register32_2.output[16]
+output[17] << Register32:Register32_2.output[17]
+output[18] << Register32:Register32_2.output[18]
+output[19] << Register32:Register32_2.output[19]
+output[20] << Register32:Register32_2.output[20]
+output[21] << Register32:Register32_2.output[21]
+output[22] << Register32:Register32_2.output[22]
+output[23] << Register32:Register32_2.output[23]
+output[24] << Register32:Register32_2.output[24]
+output[25] << Register32:Register32_2.output[25]
+output[26] << Register32:Register32_2.output[26]
+output[27] << Register32:Register32_2.output[27]
+output[28] << Register32:Register32_2.output[28]
+output[29] << Register32:Register32_2.output[29]
+output[30] << Register32:Register32_2.output[30]
+output[31] << Register32:Register32_2.output[31]
+output[32] << Register32:Register32_1.output[0]
+output[33] << Register32:Register32_1.output[1]
+output[34] << Register32:Register32_1.output[2]
+output[35] << Register32:Register32_1.output[3]
+output[36] << Register32:Register32_1.output[4]
+output[37] << Register32:Register32_1.output[5]
+output[38] << Register32:Register32_1.output[6]
+output[39] << Register32:Register32_1.output[7]
+output[40] << Register32:Register32_1.output[8]
+output[41] << Register32:Register32_1.output[9]
+output[42] << Register32:Register32_1.output[10]
+output[43] << Register32:Register32_1.output[11]
+output[44] << Register32:Register32_1.output[12]
+output[45] << Register32:Register32_1.output[13]
+output[46] << Register32:Register32_1.output[14]
+output[47] << Register32:Register32_1.output[15]
+output[48] << Register32:Register32_1.output[16]
+output[49] << Register32:Register32_1.output[17]
+output[50] << Register32:Register32_1.output[18]
+output[51] << Register32:Register32_1.output[19]
+output[52] << Register32:Register32_1.output[20]
+output[53] << Register32:Register32_1.output[21]
+output[54] << Register32:Register32_1.output[22]
+output[55] << Register32:Register32_1.output[23]
+output[56] << Register32:Register32_1.output[24]
+output[57] << Register32:Register32_1.output[25]
+output[58] << Register32:Register32_1.output[26]
+output[59] << Register32:Register32_1.output[27]
+output[60] << Register32:Register32_1.output[28]
+output[61] << Register32:Register32_1.output[29]
+output[62] << Register32:Register32_1.output[30]
+output[63] << Register32:Register32_1.output[31]
+
+
+|Register64|Register32:Register32_1
+clock => Register16:c1.clock
+clock => Register16:c2.clock
+clock => Register16:Reg16_2.clock
+input[0] => Register16:c2.input[0]
+input[0] => Register16:Reg16_2.input[0]
+input[1] => Register16:c2.input[1]
+input[1] => Register16:Reg16_2.input[1]
+input[2] => Register16:c2.input[2]
+input[2] => Register16:Reg16_2.input[2]
+input[3] => Register16:c2.input[3]
+input[3] => Register16:Reg16_2.input[3]
+input[4] => Register16:c2.input[4]
+input[4] => Register16:Reg16_2.input[4]
+input[5] => Register16:c2.input[5]
+input[5] => Register16:Reg16_2.input[5]
+input[6] => Register16:c2.input[6]
+input[6] => Register16:Reg16_2.input[6]
+input[7] => Register16:c2.input[7]
+input[7] => Register16:Reg16_2.input[7]
+input[8] => Register16:c2.input[8]
+input[8] => Register16:Reg16_2.input[8]
+input[9] => Register16:c2.input[9]
+input[9] => Register16:Reg16_2.input[9]
+input[10] => Register16:c2.input[10]
+input[10] => Register16:Reg16_2.input[10]
+input[11] => Register16:c2.input[11]
+input[11] => Register16:Reg16_2.input[11]
+input[12] => Register16:c2.input[12]
+input[12] => Register16:Reg16_2.input[12]
+input[13] => Register16:c2.input[13]
+input[13] => Register16:Reg16_2.input[13]
+input[14] => Register16:c2.input[14]
+input[14] => Register16:Reg16_2.input[14]
+input[15] => Register16:c2.input[15]
+input[15] => Register16:Reg16_2.input[15]
+input[16] => Register16:c1.input[0]
+input[17] => Register16:c1.input[1]
+input[18] => Register16:c1.input[2]
+input[19] => Register16:c1.input[3]
+input[20] => Register16:c1.input[4]
+input[21] => Register16:c1.input[5]
+input[22] => Register16:c1.input[6]
+input[23] => Register16:c1.input[7]
+input[24] => Register16:c1.input[8]
+input[25] => Register16:c1.input[9]
+input[26] => Register16:c1.input[10]
+input[27] => Register16:c1.input[11]
+input[28] => Register16:c1.input[12]
+input[29] => Register16:c1.input[13]
+input[30] => Register16:c1.input[14]
+input[31] => Register16:c1.input[15]
+load => Register16:c1.load
+load => Register16:c2.load
+load => Register16:Reg16_2.load
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= output[4].DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= output[5].DB_MAX_OUTPUT_PORT_TYPE
+output[6] <= output[6].DB_MAX_OUTPUT_PORT_TYPE
+output[7] <= output[7].DB_MAX_OUTPUT_PORT_TYPE
+output[8] <= output[8].DB_MAX_OUTPUT_PORT_TYPE
+output[9] <= output[9].DB_MAX_OUTPUT_PORT_TYPE
+output[10] <= output[10].DB_MAX_OUTPUT_PORT_TYPE
+output[11] <= output[11].DB_MAX_OUTPUT_PORT_TYPE
+output[12] <= output[12].DB_MAX_OUTPUT_PORT_TYPE
+output[13] <= output[13].DB_MAX_OUTPUT_PORT_TYPE
+output[14] <= output[14].DB_MAX_OUTPUT_PORT_TYPE
+output[15] <= output[15].DB_MAX_OUTPUT_PORT_TYPE
+output[16] <= Register16:c1.output[0]
+output[17] <= Register16:c1.output[1]
+output[18] <= Register16:c1.output[2]
+output[19] <= Register16:c1.output[3]
+output[20] <= Register16:c1.output[4]
+output[21] <= Register16:c1.output[5]
+output[22] <= Register16:c1.output[6]
+output[23] <= Register16:c1.output[7]
+output[24] <= Register16:c1.output[8]
+output[25] <= Register16:c1.output[9]
+output[26] <= Register16:c1.output[10]
+output[27] <= Register16:c1.output[11]
+output[28] <= Register16:c1.output[12]
+output[29] <= Register16:c1.output[13]
+output[30] <= Register16:c1.output[14]
+output[31] <= Register16:c1.output[15]
+
+
+|Register64|Register32:Register32_1|Register16:c1
+clock => Register8:u0.clock
+clock => Register8:u1.clock
+input[0] => Register8:u0.input[0]
+input[1] => Register8:u0.input[1]
+input[2] => Register8:u0.input[2]
+input[3] => Register8:u0.input[3]
+input[4] => Register8:u0.input[4]
+input[5] => Register8:u0.input[5]
+input[6] => Register8:u0.input[6]
+input[7] => Register8:u0.input[7]
+input[8] => Register8:u1.input[0]
+input[9] => Register8:u1.input[1]
+input[10] => Register8:u1.input[2]
+input[11] => Register8:u1.input[3]
+input[12] => Register8:u1.input[4]
+input[13] => Register8:u1.input[5]
+input[14] => Register8:u1.input[6]
+input[15] => Register8:u1.input[7]
+load => Register8:u0.load
+load => Register8:u1.load
+output[0] <= Register8:u0.output[0]
+output[1] <= Register8:u0.output[1]
+output[2] <= Register8:u0.output[2]
+output[3] <= Register8:u0.output[3]
+output[4] <= Register8:u0.output[4]
+output[5] <= Register8:u0.output[5]
+output[6] <= Register8:u0.output[6]
+output[7] <= Register8:u0.output[7]
+output[8] <= Register8:u1.output[0]
+output[9] <= Register8:u1.output[1]
+output[10] <= Register8:u1.output[2]
+output[11] <= Register8:u1.output[3]
+output[12] <= Register8:u1.output[4]
+output[13] <= Register8:u1.output[5]
+output[14] <= Register8:u1.output[6]
+output[15] <= Register8:u1.output[7]
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0
+clock => BinaryDigit:u0.clock
+clock => BinaryDigit:u1.clock
+clock => BinaryDigit:u2.clock
+clock => BinaryDigit:u3.clock
+clock => BinaryDigit:u4.clock
+clock => BinaryDigit:u5.clock
+clock => BinaryDigit:u6.clock
+clock => BinaryDigit:u7.clock
+input[0] => BinaryDigit:u0.input
+input[1] => BinaryDigit:u1.input
+input[2] => BinaryDigit:u2.input
+input[3] => BinaryDigit:u3.input
+input[4] => BinaryDigit:u4.input
+input[5] => BinaryDigit:u5.input
+input[6] => BinaryDigit:u6.input
+input[7] => BinaryDigit:u7.input
+load => BinaryDigit:u0.load
+load => BinaryDigit:u1.load
+load => BinaryDigit:u2.load
+load => BinaryDigit:u3.load
+load => BinaryDigit:u4.load
+load => BinaryDigit:u5.load
+load => BinaryDigit:u6.load
+load => BinaryDigit:u7.load
+output[0] <= BinaryDigit:u0.output
+output[1] <= BinaryDigit:u1.output
+output[2] <= BinaryDigit:u2.output
+output[3] <= BinaryDigit:u3.output
+output[4] <= BinaryDigit:u4.output
+output[5] <= BinaryDigit:u5.output
+output[6] <= BinaryDigit:u6.output
+output[7] <= BinaryDigit:u7.output
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u0
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u0|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u0|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u1
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u1|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u1|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u2
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u2|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u2|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u3
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u3|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u3|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u4
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u4|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u4|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u5
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u5|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u5|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u6
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u6|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u6|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u7
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u7|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u0|BinaryDigit:u7|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1
+clock => BinaryDigit:u0.clock
+clock => BinaryDigit:u1.clock
+clock => BinaryDigit:u2.clock
+clock => BinaryDigit:u3.clock
+clock => BinaryDigit:u4.clock
+clock => BinaryDigit:u5.clock
+clock => BinaryDigit:u6.clock
+clock => BinaryDigit:u7.clock
+input[0] => BinaryDigit:u0.input
+input[1] => BinaryDigit:u1.input
+input[2] => BinaryDigit:u2.input
+input[3] => BinaryDigit:u3.input
+input[4] => BinaryDigit:u4.input
+input[5] => BinaryDigit:u5.input
+input[6] => BinaryDigit:u6.input
+input[7] => BinaryDigit:u7.input
+load => BinaryDigit:u0.load
+load => BinaryDigit:u1.load
+load => BinaryDigit:u2.load
+load => BinaryDigit:u3.load
+load => BinaryDigit:u4.load
+load => BinaryDigit:u5.load
+load => BinaryDigit:u6.load
+load => BinaryDigit:u7.load
+output[0] <= BinaryDigit:u0.output
+output[1] <= BinaryDigit:u1.output
+output[2] <= BinaryDigit:u2.output
+output[3] <= BinaryDigit:u3.output
+output[4] <= BinaryDigit:u4.output
+output[5] <= BinaryDigit:u5.output
+output[6] <= BinaryDigit:u6.output
+output[7] <= BinaryDigit:u7.output
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u0
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u0|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u0|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u1
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u1|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u1|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u2
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u2|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u2|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u3
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u3|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u3|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u4
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u4|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u4|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u5
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u5|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u5|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u6
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u6|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u6|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u7
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u7|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c1|Register8:u1|BinaryDigit:u7|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2
+clock => Register8:u0.clock
+clock => Register8:u1.clock
+input[0] => Register8:u0.input[0]
+input[1] => Register8:u0.input[1]
+input[2] => Register8:u0.input[2]
+input[3] => Register8:u0.input[3]
+input[4] => Register8:u0.input[4]
+input[5] => Register8:u0.input[5]
+input[6] => Register8:u0.input[6]
+input[7] => Register8:u0.input[7]
+input[8] => Register8:u1.input[0]
+input[9] => Register8:u1.input[1]
+input[10] => Register8:u1.input[2]
+input[11] => Register8:u1.input[3]
+input[12] => Register8:u1.input[4]
+input[13] => Register8:u1.input[5]
+input[14] => Register8:u1.input[6]
+input[15] => Register8:u1.input[7]
+load => Register8:u0.load
+load => Register8:u1.load
+output[0] <= Register8:u0.output[0]
+output[1] <= Register8:u0.output[1]
+output[2] <= Register8:u0.output[2]
+output[3] <= Register8:u0.output[3]
+output[4] <= Register8:u0.output[4]
+output[5] <= Register8:u0.output[5]
+output[6] <= Register8:u0.output[6]
+output[7] <= Register8:u0.output[7]
+output[8] <= Register8:u1.output[0]
+output[9] <= Register8:u1.output[1]
+output[10] <= Register8:u1.output[2]
+output[11] <= Register8:u1.output[3]
+output[12] <= Register8:u1.output[4]
+output[13] <= Register8:u1.output[5]
+output[14] <= Register8:u1.output[6]
+output[15] <= Register8:u1.output[7]
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0
+clock => BinaryDigit:u0.clock
+clock => BinaryDigit:u1.clock
+clock => BinaryDigit:u2.clock
+clock => BinaryDigit:u3.clock
+clock => BinaryDigit:u4.clock
+clock => BinaryDigit:u5.clock
+clock => BinaryDigit:u6.clock
+clock => BinaryDigit:u7.clock
+input[0] => BinaryDigit:u0.input
+input[1] => BinaryDigit:u1.input
+input[2] => BinaryDigit:u2.input
+input[3] => BinaryDigit:u3.input
+input[4] => BinaryDigit:u4.input
+input[5] => BinaryDigit:u5.input
+input[6] => BinaryDigit:u6.input
+input[7] => BinaryDigit:u7.input
+load => BinaryDigit:u0.load
+load => BinaryDigit:u1.load
+load => BinaryDigit:u2.load
+load => BinaryDigit:u3.load
+load => BinaryDigit:u4.load
+load => BinaryDigit:u5.load
+load => BinaryDigit:u6.load
+load => BinaryDigit:u7.load
+output[0] <= BinaryDigit:u0.output
+output[1] <= BinaryDigit:u1.output
+output[2] <= BinaryDigit:u2.output
+output[3] <= BinaryDigit:u3.output
+output[4] <= BinaryDigit:u4.output
+output[5] <= BinaryDigit:u5.output
+output[6] <= BinaryDigit:u6.output
+output[7] <= BinaryDigit:u7.output
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u0
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u0|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u0|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u1
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u1|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u1|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u2
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u2|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u2|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u3
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u3|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u3|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u4
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u4|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u4|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u5
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u5|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u5|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u6
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u6|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u6|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u7
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u7|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u0|BinaryDigit:u7|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1
+clock => BinaryDigit:u0.clock
+clock => BinaryDigit:u1.clock
+clock => BinaryDigit:u2.clock
+clock => BinaryDigit:u3.clock
+clock => BinaryDigit:u4.clock
+clock => BinaryDigit:u5.clock
+clock => BinaryDigit:u6.clock
+clock => BinaryDigit:u7.clock
+input[0] => BinaryDigit:u0.input
+input[1] => BinaryDigit:u1.input
+input[2] => BinaryDigit:u2.input
+input[3] => BinaryDigit:u3.input
+input[4] => BinaryDigit:u4.input
+input[5] => BinaryDigit:u5.input
+input[6] => BinaryDigit:u6.input
+input[7] => BinaryDigit:u7.input
+load => BinaryDigit:u0.load
+load => BinaryDigit:u1.load
+load => BinaryDigit:u2.load
+load => BinaryDigit:u3.load
+load => BinaryDigit:u4.load
+load => BinaryDigit:u5.load
+load => BinaryDigit:u6.load
+load => BinaryDigit:u7.load
+output[0] <= BinaryDigit:u0.output
+output[1] <= BinaryDigit:u1.output
+output[2] <= BinaryDigit:u2.output
+output[3] <= BinaryDigit:u3.output
+output[4] <= BinaryDigit:u4.output
+output[5] <= BinaryDigit:u5.output
+output[6] <= BinaryDigit:u6.output
+output[7] <= BinaryDigit:u7.output
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u0
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u0|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u0|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u1
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u1|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u1|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u2
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u2|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u2|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u3
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u3|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u3|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u4
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u4|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u4|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u5
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u5|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u5|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u6
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u6|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u6|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u7
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u7|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:c2|Register8:u1|BinaryDigit:u7|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2
+clock => Register8:u0.clock
+clock => Register8:u1.clock
+input[0] => Register8:u0.input[0]
+input[1] => Register8:u0.input[1]
+input[2] => Register8:u0.input[2]
+input[3] => Register8:u0.input[3]
+input[4] => Register8:u0.input[4]
+input[5] => Register8:u0.input[5]
+input[6] => Register8:u0.input[6]
+input[7] => Register8:u0.input[7]
+input[8] => Register8:u1.input[0]
+input[9] => Register8:u1.input[1]
+input[10] => Register8:u1.input[2]
+input[11] => Register8:u1.input[3]
+input[12] => Register8:u1.input[4]
+input[13] => Register8:u1.input[5]
+input[14] => Register8:u1.input[6]
+input[15] => Register8:u1.input[7]
+load => Register8:u0.load
+load => Register8:u1.load
+output[0] <= Register8:u0.output[0]
+output[1] <= Register8:u0.output[1]
+output[2] <= Register8:u0.output[2]
+output[3] <= Register8:u0.output[3]
+output[4] <= Register8:u0.output[4]
+output[5] <= Register8:u0.output[5]
+output[6] <= Register8:u0.output[6]
+output[7] <= Register8:u0.output[7]
+output[8] <= Register8:u1.output[0]
+output[9] <= Register8:u1.output[1]
+output[10] <= Register8:u1.output[2]
+output[11] <= Register8:u1.output[3]
+output[12] <= Register8:u1.output[4]
+output[13] <= Register8:u1.output[5]
+output[14] <= Register8:u1.output[6]
+output[15] <= Register8:u1.output[7]
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0
+clock => BinaryDigit:u0.clock
+clock => BinaryDigit:u1.clock
+clock => BinaryDigit:u2.clock
+clock => BinaryDigit:u3.clock
+clock => BinaryDigit:u4.clock
+clock => BinaryDigit:u5.clock
+clock => BinaryDigit:u6.clock
+clock => BinaryDigit:u7.clock
+input[0] => BinaryDigit:u0.input
+input[1] => BinaryDigit:u1.input
+input[2] => BinaryDigit:u2.input
+input[3] => BinaryDigit:u3.input
+input[4] => BinaryDigit:u4.input
+input[5] => BinaryDigit:u5.input
+input[6] => BinaryDigit:u6.input
+input[7] => BinaryDigit:u7.input
+load => BinaryDigit:u0.load
+load => BinaryDigit:u1.load
+load => BinaryDigit:u2.load
+load => BinaryDigit:u3.load
+load => BinaryDigit:u4.load
+load => BinaryDigit:u5.load
+load => BinaryDigit:u6.load
+load => BinaryDigit:u7.load
+output[0] <= BinaryDigit:u0.output
+output[1] <= BinaryDigit:u1.output
+output[2] <= BinaryDigit:u2.output
+output[3] <= BinaryDigit:u3.output
+output[4] <= BinaryDigit:u4.output
+output[5] <= BinaryDigit:u5.output
+output[6] <= BinaryDigit:u6.output
+output[7] <= BinaryDigit:u7.output
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u0
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u0|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u0|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u1
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u1|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u1|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u2
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u2|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u2|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u3
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u3|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u3|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u4
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u4|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u4|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u5
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u5|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u5|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u6
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u6|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u6|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u7
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u7|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u0|BinaryDigit:u7|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1
+clock => BinaryDigit:u0.clock
+clock => BinaryDigit:u1.clock
+clock => BinaryDigit:u2.clock
+clock => BinaryDigit:u3.clock
+clock => BinaryDigit:u4.clock
+clock => BinaryDigit:u5.clock
+clock => BinaryDigit:u6.clock
+clock => BinaryDigit:u7.clock
+input[0] => BinaryDigit:u0.input
+input[1] => BinaryDigit:u1.input
+input[2] => BinaryDigit:u2.input
+input[3] => BinaryDigit:u3.input
+input[4] => BinaryDigit:u4.input
+input[5] => BinaryDigit:u5.input
+input[6] => BinaryDigit:u6.input
+input[7] => BinaryDigit:u7.input
+load => BinaryDigit:u0.load
+load => BinaryDigit:u1.load
+load => BinaryDigit:u2.load
+load => BinaryDigit:u3.load
+load => BinaryDigit:u4.load
+load => BinaryDigit:u5.load
+load => BinaryDigit:u6.load
+load => BinaryDigit:u7.load
+output[0] <= BinaryDigit:u0.output
+output[1] <= BinaryDigit:u1.output
+output[2] <= BinaryDigit:u2.output
+output[3] <= BinaryDigit:u3.output
+output[4] <= BinaryDigit:u4.output
+output[5] <= BinaryDigit:u5.output
+output[6] <= BinaryDigit:u6.output
+output[7] <= BinaryDigit:u7.output
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u0
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u0|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u0|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u1
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u1|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u1|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u2
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u2|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u2|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u3
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u3|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u3|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u4
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u4|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u4|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u5
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u5|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u5|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u6
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u6|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u6|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u7
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u7|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_1|Register16:Reg16_2|Register8:u1|BinaryDigit:u7|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2
+clock => Register16:c1.clock
+clock => Register16:c2.clock
+clock => Register16:Reg16_2.clock
+input[0] => Register16:c2.input[0]
+input[0] => Register16:Reg16_2.input[0]
+input[1] => Register16:c2.input[1]
+input[1] => Register16:Reg16_2.input[1]
+input[2] => Register16:c2.input[2]
+input[2] => Register16:Reg16_2.input[2]
+input[3] => Register16:c2.input[3]
+input[3] => Register16:Reg16_2.input[3]
+input[4] => Register16:c2.input[4]
+input[4] => Register16:Reg16_2.input[4]
+input[5] => Register16:c2.input[5]
+input[5] => Register16:Reg16_2.input[5]
+input[6] => Register16:c2.input[6]
+input[6] => Register16:Reg16_2.input[6]
+input[7] => Register16:c2.input[7]
+input[7] => Register16:Reg16_2.input[7]
+input[8] => Register16:c2.input[8]
+input[8] => Register16:Reg16_2.input[8]
+input[9] => Register16:c2.input[9]
+input[9] => Register16:Reg16_2.input[9]
+input[10] => Register16:c2.input[10]
+input[10] => Register16:Reg16_2.input[10]
+input[11] => Register16:c2.input[11]
+input[11] => Register16:Reg16_2.input[11]
+input[12] => Register16:c2.input[12]
+input[12] => Register16:Reg16_2.input[12]
+input[13] => Register16:c2.input[13]
+input[13] => Register16:Reg16_2.input[13]
+input[14] => Register16:c2.input[14]
+input[14] => Register16:Reg16_2.input[14]
+input[15] => Register16:c2.input[15]
+input[15] => Register16:Reg16_2.input[15]
+input[16] => Register16:c1.input[0]
+input[17] => Register16:c1.input[1]
+input[18] => Register16:c1.input[2]
+input[19] => Register16:c1.input[3]
+input[20] => Register16:c1.input[4]
+input[21] => Register16:c1.input[5]
+input[22] => Register16:c1.input[6]
+input[23] => Register16:c1.input[7]
+input[24] => Register16:c1.input[8]
+input[25] => Register16:c1.input[9]
+input[26] => Register16:c1.input[10]
+input[27] => Register16:c1.input[11]
+input[28] => Register16:c1.input[12]
+input[29] => Register16:c1.input[13]
+input[30] => Register16:c1.input[14]
+input[31] => Register16:c1.input[15]
+load => Register16:c1.load
+load => Register16:c2.load
+load => Register16:Reg16_2.load
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= output[4].DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= output[5].DB_MAX_OUTPUT_PORT_TYPE
+output[6] <= output[6].DB_MAX_OUTPUT_PORT_TYPE
+output[7] <= output[7].DB_MAX_OUTPUT_PORT_TYPE
+output[8] <= output[8].DB_MAX_OUTPUT_PORT_TYPE
+output[9] <= output[9].DB_MAX_OUTPUT_PORT_TYPE
+output[10] <= output[10].DB_MAX_OUTPUT_PORT_TYPE
+output[11] <= output[11].DB_MAX_OUTPUT_PORT_TYPE
+output[12] <= output[12].DB_MAX_OUTPUT_PORT_TYPE
+output[13] <= output[13].DB_MAX_OUTPUT_PORT_TYPE
+output[14] <= output[14].DB_MAX_OUTPUT_PORT_TYPE
+output[15] <= output[15].DB_MAX_OUTPUT_PORT_TYPE
+output[16] <= Register16:c1.output[0]
+output[17] <= Register16:c1.output[1]
+output[18] <= Register16:c1.output[2]
+output[19] <= Register16:c1.output[3]
+output[20] <= Register16:c1.output[4]
+output[21] <= Register16:c1.output[5]
+output[22] <= Register16:c1.output[6]
+output[23] <= Register16:c1.output[7]
+output[24] <= Register16:c1.output[8]
+output[25] <= Register16:c1.output[9]
+output[26] <= Register16:c1.output[10]
+output[27] <= Register16:c1.output[11]
+output[28] <= Register16:c1.output[12]
+output[29] <= Register16:c1.output[13]
+output[30] <= Register16:c1.output[14]
+output[31] <= Register16:c1.output[15]
+
+
+|Register64|Register32:Register32_2|Register16:c1
+clock => Register8:u0.clock
+clock => Register8:u1.clock
+input[0] => Register8:u0.input[0]
+input[1] => Register8:u0.input[1]
+input[2] => Register8:u0.input[2]
+input[3] => Register8:u0.input[3]
+input[4] => Register8:u0.input[4]
+input[5] => Register8:u0.input[5]
+input[6] => Register8:u0.input[6]
+input[7] => Register8:u0.input[7]
+input[8] => Register8:u1.input[0]
+input[9] => Register8:u1.input[1]
+input[10] => Register8:u1.input[2]
+input[11] => Register8:u1.input[3]
+input[12] => Register8:u1.input[4]
+input[13] => Register8:u1.input[5]
+input[14] => Register8:u1.input[6]
+input[15] => Register8:u1.input[7]
+load => Register8:u0.load
+load => Register8:u1.load
+output[0] <= Register8:u0.output[0]
+output[1] <= Register8:u0.output[1]
+output[2] <= Register8:u0.output[2]
+output[3] <= Register8:u0.output[3]
+output[4] <= Register8:u0.output[4]
+output[5] <= Register8:u0.output[5]
+output[6] <= Register8:u0.output[6]
+output[7] <= Register8:u0.output[7]
+output[8] <= Register8:u1.output[0]
+output[9] <= Register8:u1.output[1]
+output[10] <= Register8:u1.output[2]
+output[11] <= Register8:u1.output[3]
+output[12] <= Register8:u1.output[4]
+output[13] <= Register8:u1.output[5]
+output[14] <= Register8:u1.output[6]
+output[15] <= Register8:u1.output[7]
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0
+clock => BinaryDigit:u0.clock
+clock => BinaryDigit:u1.clock
+clock => BinaryDigit:u2.clock
+clock => BinaryDigit:u3.clock
+clock => BinaryDigit:u4.clock
+clock => BinaryDigit:u5.clock
+clock => BinaryDigit:u6.clock
+clock => BinaryDigit:u7.clock
+input[0] => BinaryDigit:u0.input
+input[1] => BinaryDigit:u1.input
+input[2] => BinaryDigit:u2.input
+input[3] => BinaryDigit:u3.input
+input[4] => BinaryDigit:u4.input
+input[5] => BinaryDigit:u5.input
+input[6] => BinaryDigit:u6.input
+input[7] => BinaryDigit:u7.input
+load => BinaryDigit:u0.load
+load => BinaryDigit:u1.load
+load => BinaryDigit:u2.load
+load => BinaryDigit:u3.load
+load => BinaryDigit:u4.load
+load => BinaryDigit:u5.load
+load => BinaryDigit:u6.load
+load => BinaryDigit:u7.load
+output[0] <= BinaryDigit:u0.output
+output[1] <= BinaryDigit:u1.output
+output[2] <= BinaryDigit:u2.output
+output[3] <= BinaryDigit:u3.output
+output[4] <= BinaryDigit:u4.output
+output[5] <= BinaryDigit:u5.output
+output[6] <= BinaryDigit:u6.output
+output[7] <= BinaryDigit:u7.output
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u0
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u0|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u0|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u1
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u1|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u1|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u2
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u2|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u2|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u3
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u3|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u3|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u4
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u4|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u4|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u5
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u5|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u5|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u6
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u6|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u6|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u7
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u7|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u0|BinaryDigit:u7|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1
+clock => BinaryDigit:u0.clock
+clock => BinaryDigit:u1.clock
+clock => BinaryDigit:u2.clock
+clock => BinaryDigit:u3.clock
+clock => BinaryDigit:u4.clock
+clock => BinaryDigit:u5.clock
+clock => BinaryDigit:u6.clock
+clock => BinaryDigit:u7.clock
+input[0] => BinaryDigit:u0.input
+input[1] => BinaryDigit:u1.input
+input[2] => BinaryDigit:u2.input
+input[3] => BinaryDigit:u3.input
+input[4] => BinaryDigit:u4.input
+input[5] => BinaryDigit:u5.input
+input[6] => BinaryDigit:u6.input
+input[7] => BinaryDigit:u7.input
+load => BinaryDigit:u0.load
+load => BinaryDigit:u1.load
+load => BinaryDigit:u2.load
+load => BinaryDigit:u3.load
+load => BinaryDigit:u4.load
+load => BinaryDigit:u5.load
+load => BinaryDigit:u6.load
+load => BinaryDigit:u7.load
+output[0] <= BinaryDigit:u0.output
+output[1] <= BinaryDigit:u1.output
+output[2] <= BinaryDigit:u2.output
+output[3] <= BinaryDigit:u3.output
+output[4] <= BinaryDigit:u4.output
+output[5] <= BinaryDigit:u5.output
+output[6] <= BinaryDigit:u6.output
+output[7] <= BinaryDigit:u7.output
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u0
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u0|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u0|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u1
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u1|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u1|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u2
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u2|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u2|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u3
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u3|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u3|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u4
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u4|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u4|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u5
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u5|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u5|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u6
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u6|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u6|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u7
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u7|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c1|Register8:u1|BinaryDigit:u7|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2
+clock => Register8:u0.clock
+clock => Register8:u1.clock
+input[0] => Register8:u0.input[0]
+input[1] => Register8:u0.input[1]
+input[2] => Register8:u0.input[2]
+input[3] => Register8:u0.input[3]
+input[4] => Register8:u0.input[4]
+input[5] => Register8:u0.input[5]
+input[6] => Register8:u0.input[6]
+input[7] => Register8:u0.input[7]
+input[8] => Register8:u1.input[0]
+input[9] => Register8:u1.input[1]
+input[10] => Register8:u1.input[2]
+input[11] => Register8:u1.input[3]
+input[12] => Register8:u1.input[4]
+input[13] => Register8:u1.input[5]
+input[14] => Register8:u1.input[6]
+input[15] => Register8:u1.input[7]
+load => Register8:u0.load
+load => Register8:u1.load
+output[0] <= Register8:u0.output[0]
+output[1] <= Register8:u0.output[1]
+output[2] <= Register8:u0.output[2]
+output[3] <= Register8:u0.output[3]
+output[4] <= Register8:u0.output[4]
+output[5] <= Register8:u0.output[5]
+output[6] <= Register8:u0.output[6]
+output[7] <= Register8:u0.output[7]
+output[8] <= Register8:u1.output[0]
+output[9] <= Register8:u1.output[1]
+output[10] <= Register8:u1.output[2]
+output[11] <= Register8:u1.output[3]
+output[12] <= Register8:u1.output[4]
+output[13] <= Register8:u1.output[5]
+output[14] <= Register8:u1.output[6]
+output[15] <= Register8:u1.output[7]
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0
+clock => BinaryDigit:u0.clock
+clock => BinaryDigit:u1.clock
+clock => BinaryDigit:u2.clock
+clock => BinaryDigit:u3.clock
+clock => BinaryDigit:u4.clock
+clock => BinaryDigit:u5.clock
+clock => BinaryDigit:u6.clock
+clock => BinaryDigit:u7.clock
+input[0] => BinaryDigit:u0.input
+input[1] => BinaryDigit:u1.input
+input[2] => BinaryDigit:u2.input
+input[3] => BinaryDigit:u3.input
+input[4] => BinaryDigit:u4.input
+input[5] => BinaryDigit:u5.input
+input[6] => BinaryDigit:u6.input
+input[7] => BinaryDigit:u7.input
+load => BinaryDigit:u0.load
+load => BinaryDigit:u1.load
+load => BinaryDigit:u2.load
+load => BinaryDigit:u3.load
+load => BinaryDigit:u4.load
+load => BinaryDigit:u5.load
+load => BinaryDigit:u6.load
+load => BinaryDigit:u7.load
+output[0] <= BinaryDigit:u0.output
+output[1] <= BinaryDigit:u1.output
+output[2] <= BinaryDigit:u2.output
+output[3] <= BinaryDigit:u3.output
+output[4] <= BinaryDigit:u4.output
+output[5] <= BinaryDigit:u5.output
+output[6] <= BinaryDigit:u6.output
+output[7] <= BinaryDigit:u7.output
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u0
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u0|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u0|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u1
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u1|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u1|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u2
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u2|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u2|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u3
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u3|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u3|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u4
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u4|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u4|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u5
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u5|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u5|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u6
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u6|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u6|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u7
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u7|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u0|BinaryDigit:u7|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1
+clock => BinaryDigit:u0.clock
+clock => BinaryDigit:u1.clock
+clock => BinaryDigit:u2.clock
+clock => BinaryDigit:u3.clock
+clock => BinaryDigit:u4.clock
+clock => BinaryDigit:u5.clock
+clock => BinaryDigit:u6.clock
+clock => BinaryDigit:u7.clock
+input[0] => BinaryDigit:u0.input
+input[1] => BinaryDigit:u1.input
+input[2] => BinaryDigit:u2.input
+input[3] => BinaryDigit:u3.input
+input[4] => BinaryDigit:u4.input
+input[5] => BinaryDigit:u5.input
+input[6] => BinaryDigit:u6.input
+input[7] => BinaryDigit:u7.input
+load => BinaryDigit:u0.load
+load => BinaryDigit:u1.load
+load => BinaryDigit:u2.load
+load => BinaryDigit:u3.load
+load => BinaryDigit:u4.load
+load => BinaryDigit:u5.load
+load => BinaryDigit:u6.load
+load => BinaryDigit:u7.load
+output[0] <= BinaryDigit:u0.output
+output[1] <= BinaryDigit:u1.output
+output[2] <= BinaryDigit:u2.output
+output[3] <= BinaryDigit:u3.output
+output[4] <= BinaryDigit:u4.output
+output[5] <= BinaryDigit:u5.output
+output[6] <= BinaryDigit:u6.output
+output[7] <= BinaryDigit:u7.output
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u0
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u0|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u0|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u1
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u1|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u1|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u2
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u2|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u2|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u3
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u3|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u3|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u4
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u4|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u4|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u5
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u5|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u5|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u6
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u6|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u6|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u7
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u7|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:c2|Register8:u1|BinaryDigit:u7|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2
+clock => Register8:u0.clock
+clock => Register8:u1.clock
+input[0] => Register8:u0.input[0]
+input[1] => Register8:u0.input[1]
+input[2] => Register8:u0.input[2]
+input[3] => Register8:u0.input[3]
+input[4] => Register8:u0.input[4]
+input[5] => Register8:u0.input[5]
+input[6] => Register8:u0.input[6]
+input[7] => Register8:u0.input[7]
+input[8] => Register8:u1.input[0]
+input[9] => Register8:u1.input[1]
+input[10] => Register8:u1.input[2]
+input[11] => Register8:u1.input[3]
+input[12] => Register8:u1.input[4]
+input[13] => Register8:u1.input[5]
+input[14] => Register8:u1.input[6]
+input[15] => Register8:u1.input[7]
+load => Register8:u0.load
+load => Register8:u1.load
+output[0] <= Register8:u0.output[0]
+output[1] <= Register8:u0.output[1]
+output[2] <= Register8:u0.output[2]
+output[3] <= Register8:u0.output[3]
+output[4] <= Register8:u0.output[4]
+output[5] <= Register8:u0.output[5]
+output[6] <= Register8:u0.output[6]
+output[7] <= Register8:u0.output[7]
+output[8] <= Register8:u1.output[0]
+output[9] <= Register8:u1.output[1]
+output[10] <= Register8:u1.output[2]
+output[11] <= Register8:u1.output[3]
+output[12] <= Register8:u1.output[4]
+output[13] <= Register8:u1.output[5]
+output[14] <= Register8:u1.output[6]
+output[15] <= Register8:u1.output[7]
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0
+clock => BinaryDigit:u0.clock
+clock => BinaryDigit:u1.clock
+clock => BinaryDigit:u2.clock
+clock => BinaryDigit:u3.clock
+clock => BinaryDigit:u4.clock
+clock => BinaryDigit:u5.clock
+clock => BinaryDigit:u6.clock
+clock => BinaryDigit:u7.clock
+input[0] => BinaryDigit:u0.input
+input[1] => BinaryDigit:u1.input
+input[2] => BinaryDigit:u2.input
+input[3] => BinaryDigit:u3.input
+input[4] => BinaryDigit:u4.input
+input[5] => BinaryDigit:u5.input
+input[6] => BinaryDigit:u6.input
+input[7] => BinaryDigit:u7.input
+load => BinaryDigit:u0.load
+load => BinaryDigit:u1.load
+load => BinaryDigit:u2.load
+load => BinaryDigit:u3.load
+load => BinaryDigit:u4.load
+load => BinaryDigit:u5.load
+load => BinaryDigit:u6.load
+load => BinaryDigit:u7.load
+output[0] <= BinaryDigit:u0.output
+output[1] <= BinaryDigit:u1.output
+output[2] <= BinaryDigit:u2.output
+output[3] <= BinaryDigit:u3.output
+output[4] <= BinaryDigit:u4.output
+output[5] <= BinaryDigit:u5.output
+output[6] <= BinaryDigit:u6.output
+output[7] <= BinaryDigit:u7.output
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u0
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u0|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u0|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u1
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u1|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u1|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u2
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u2|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u2|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u3
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u3|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u3|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u4
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u4|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u4|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u5
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u5|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u5|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u6
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u6|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u6|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u7
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u7|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u0|BinaryDigit:u7|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1
+clock => BinaryDigit:u0.clock
+clock => BinaryDigit:u1.clock
+clock => BinaryDigit:u2.clock
+clock => BinaryDigit:u3.clock
+clock => BinaryDigit:u4.clock
+clock => BinaryDigit:u5.clock
+clock => BinaryDigit:u6.clock
+clock => BinaryDigit:u7.clock
+input[0] => BinaryDigit:u0.input
+input[1] => BinaryDigit:u1.input
+input[2] => BinaryDigit:u2.input
+input[3] => BinaryDigit:u3.input
+input[4] => BinaryDigit:u4.input
+input[5] => BinaryDigit:u5.input
+input[6] => BinaryDigit:u6.input
+input[7] => BinaryDigit:u7.input
+load => BinaryDigit:u0.load
+load => BinaryDigit:u1.load
+load => BinaryDigit:u2.load
+load => BinaryDigit:u3.load
+load => BinaryDigit:u4.load
+load => BinaryDigit:u5.load
+load => BinaryDigit:u6.load
+load => BinaryDigit:u7.load
+output[0] <= BinaryDigit:u0.output
+output[1] <= BinaryDigit:u1.output
+output[2] <= BinaryDigit:u2.output
+output[3] <= BinaryDigit:u3.output
+output[4] <= BinaryDigit:u4.output
+output[5] <= BinaryDigit:u5.output
+output[6] <= BinaryDigit:u6.output
+output[7] <= BinaryDigit:u7.output
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u0
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u0|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u0|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u1
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u1|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u1|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u2
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u2|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u2|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u3
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u3|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u3|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u4
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u4|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u4|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u5
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u5|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u5|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u6
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u6|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u6|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u7
+clock => FlipFlopD:c2.clock
+input => Mux2Way:c1.a
+load => Mux2Way:c1.sel
+output <= FlipFlopD:c2.q
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u7|Mux2Way:c1
+a => q.IN0
+b => q.IN0
+sel => q.IN1
+sel => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register64|Register32:Register32_2|Register16:Reg16_2|Register8:u1|BinaryDigit:u7|FlipFlopD:c2
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
