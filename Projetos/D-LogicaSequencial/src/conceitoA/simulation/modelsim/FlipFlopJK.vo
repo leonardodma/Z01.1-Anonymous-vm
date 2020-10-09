@@ -1,0 +1,181 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
+
+// DATE "10/09/2020 15:51:06"
+
+// 
+// Device: Altera 5CGXFC7C7F23C8 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module FlipFlopJK (
+	clock,
+	J,
+	K,
+	q,
+	notq);
+input 	clock;
+input 	J;
+input 	K;
+output 	q;
+output 	notq;
+
+// Design Ports Information
+// clock	=>  Location: PIN_H21,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// q	=>  Location: PIN_N19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// notq	=>  Location: PIN_AA15,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// J	=>  Location: PIN_L22,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// K	=>  Location: PIN_M18,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \clock~input_o ;
+wire \~QUARTUS_CREATED_GND~I_combout ;
+wire \K~input_o ;
+wire \J~input_o ;
+wire \q$latch~combout ;
+
+
+// Location: IOOBUF_X89_Y36_N5
+cyclonev_io_obuf \q~output (
+	.i(\q$latch~combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(q),
+	.obar());
+// synopsys translate_off
+defparam \q~output .bus_hold = "false";
+defparam \q~output .open_drain_output = "false";
+defparam \q~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X54_Y0_N36
+cyclonev_io_obuf \notq~output (
+	.i(vcc),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(notq),
+	.obar());
+// synopsys translate_off
+defparam \notq~output .bus_hold = "false";
+defparam \notq~output .open_drain_output = "false";
+defparam \notq~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y36_N21
+cyclonev_io_ibuf \K~input (
+	.i(K),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\K~input_o ));
+// synopsys translate_off
+defparam \K~input .bus_hold = "false";
+defparam \K~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y36_N55
+cyclonev_io_ibuf \J~input (
+	.i(J),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\J~input_o ));
+// synopsys translate_off
+defparam \J~input .bus_hold = "false";
+defparam \J~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LABCELL_X88_Y36_N30
+cyclonev_lcell_comb q$latch(
+// Equation(s):
+// \q$latch~combout  = ( \J~input_o  & ( \q$latch~combout  ) ) # ( \J~input_o  & ( !\q$latch~combout  & ( !\K~input_o  ) ) )
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(!\K~input_o ),
+	.datad(gnd),
+	.datae(!\J~input_o ),
+	.dataf(!\q$latch~combout ),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\q$latch~combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam q$latch.extended_lut = "off";
+defparam q$latch.lut_mask = 64'h0000F0F00000FFFF;
+defparam q$latch.shared_arith = "off";
+// synopsys translate_on
+
+// Location: IOIBUF_X88_Y81_N2
+cyclonev_io_ibuf \clock~input (
+	.i(clock),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\clock~input_o ));
+// synopsys translate_off
+defparam \clock~input .bus_hold = "false";
+defparam \clock~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LABCELL_X17_Y68_N0
+cyclonev_lcell_comb \~QUARTUS_CREATED_GND~I (
+// Equation(s):
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\~QUARTUS_CREATED_GND~I_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \~QUARTUS_CREATED_GND~I .extended_lut = "off";
+defparam \~QUARTUS_CREATED_GND~I .lut_mask = 64'h0000000000000000;
+defparam \~QUARTUS_CREATED_GND~I .shared_arith = "off";
+// synopsys translate_on
+
+endmodule
