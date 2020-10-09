@@ -51,24 +51,24 @@ R10
 R11
 R12
 Eregister32
-Z13 w1602201919
+Z13 w1602203977
 R2
 R3
-!i122 12
+!i122 18
 R0
-Z14 8/tmp/nvim4hMNqO/13/Register32.vhd
-Z15 F/tmp/nvim4hMNqO/13/Register32.vhd
+Z14 8/tmp/nvimlmNA6f/5/Register32.vhd
+Z15 F/tmp/nvimlmNA6f/5/Register32.vhd
 l0
 L8 1
 VC42RjmGNDWF]WjaGKUaae0
 !s100 []:^=AY8a3]ML1PkdZ@Ea3
 R6
 33
-Z16 !s110 1602201920
+Z16 !s110 1602203977
 !i10b 1
-Z17 !s108 1602201919.000000
-Z18 !s90 -2008|-quiet|-lint|/tmp/nvim4hMNqO/13/Register32.vhd|
-!s107 /tmp/nvim4hMNqO/13/Register32.vhd|
+Z17 !s108 1602203977.000000
+Z18 !s90 -2008|-quiet|-lint|/tmp/nvimlmNA6f/5/Register32.vhd|
+!s107 /tmp/nvimlmNA6f/5/Register32.vhd|
 !i113 1
 R11
 R12
@@ -76,7 +76,7 @@ Aarch
 R2
 R3
 Z19 DEx4 work 10 register32 0 22 C42RjmGNDWF]WjaGKUaae0
-!i122 12
+!i122 18
 l28
 Z20 L17 16
 Z21 VL0XHbH>N6KFo_7gl:N3;e0
@@ -87,7 +87,51 @@ R16
 !i10b 1
 R17
 R18
-Z23 !s107 /tmp/nvim4hMNqO/13/Register32.vhd|
+Z23 !s107 /tmp/nvimlmNA6f/5/Register32.vhd|
 !i113 1
 R11
 R12
+Eregister64
+w1602203116
+R2
+R3
+!i122 14
+R0
+8/tmp/nvimuPxo6y/3/Register64.vhd
+F/tmp/nvimuPxo6y/3/Register64.vhd
+l0
+L8 1
+V3Q5zTCjRL0c6Y@JJ2eJFS2
+!s100 LCbS]1neA;d2ePolK?XW]3
+R6
+33
+!s110 1602203117
+!i10b 1
+!s108 1602203116.000000
+!s90 -2008|-quiet|-lint|/tmp/nvimuPxo6y/3/Register64.vhd|
+!s107 /tmp/nvimuPxo6y/3/Register64.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 10 register64 0 22 3Q5zTCjRL0c6Y@JJ2eJFS2
+!i122 13
+l28
+L17 14
+VRk92IT<]7ZmK0z^E>]7]]0
+!s100 c9EJ1e>]RZ`Ehme2lkE5n3
+R6
+33
+!s110 1602202915
+!i10b 1
+!s108 1602202915.000000
+!s90 -2008|-quiet|-lint|/tmp/nvimuPxo6y/2/Register64.vhd|
+!s107 /tmp/nvimuPxo6y/2/Register64.vhd|
+!i113 1
+R11
+R12
+F/tmp/nvimuPxo6y/2/Register64.vhd
+w1602202915
+8/tmp/nvimuPxo6y/2/Register64.vhd
