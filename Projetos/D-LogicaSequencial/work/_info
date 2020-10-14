@@ -1,0 +1,300 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/daniel/Desktop/Materias/3sem/elemsist/Z01.1-Anonymous/Projetos/D-LogicaSequencial
+Epc
+Z1 w1602202878
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z5 8/tmp/nvimgzmo3O/2/PC.vhd
+Z6 F/tmp/nvimgzmo3O/2/PC.vhd
+l0
+L16 1
+VzC>Yad6F_d_<>kcU`Zk^63
+!s100 [X=gb6SiLihcOc_HL>:i<2
+Z7 OV;C;2020.1;71
+33
+Z8 !s110 1602202878
+!i10b 1
+Z9 !s108 1602202878.000000
+Z10 !s90 -2008|-quiet|-lint|/tmp/nvimgzmo3O/2/PC.vhd|
+Z11 !s107 /tmp/nvimgzmo3O/2/PC.vhd|
+!i113 1
+Z12 o-quiet -2008 -lint
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+R4
+DEx4 work 2 pc 0 22 zC>Yad6F_d_<>kcU`Zk^63
+!i122 1
+l47
+L27 24
+Vdn2;HbeJ8aSgJBm;GzNeT1
+!s100 o9_^J3dKk0CIl^RXaJdSD3
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eram512
+Z14 w1602631686
+R3
+R4
+!i122 6
+R0
+Z15 8/tmp/nvimOrkcph/2/Ram512.vhd
+Z16 F/tmp/nvimOrkcph/2/Ram512.vhd
+l0
+L8 1
+VdJC<2QmVA@z2jF41ELJ[11
+!s100 1@Ji=O6R2bCM?3<4JVEVe1
+R7
+33
+Z17 !s110 1602631686
+!i10b 1
+Z18 !s108 1602631686.000000
+Z19 !s90 -2008|-quiet|-lint|/tmp/nvimOrkcph/2/Ram512.vhd|
+!s107 /tmp/nvimOrkcph/2/Ram512.vhd|
+!i113 1
+R12
+R13
+Aarch
+R3
+R4
+DEx4 work 6 ram512 0 22 dJC<2QmVA@z2jF41ELJ[11
+!i122 6
+l61
+Z20 L18 47
+VdDW`ggn^_:1d<8_`Y>2z`3
+!s100 z22T`J6H?E><^NJ>Bi?df1
+R7
+33
+R17
+!i10b 1
+R18
+R19
+Z21 !s107 /tmp/nvimOrkcph/2/Ram512.vhd|
+!i113 1
+R12
+R13
+Eram64
+Z22 w1602202883
+R3
+R4
+!i122 2
+R0
+Z23 8/tmp/nvims4M0hP/2/Ram64.vhd
+Z24 F/tmp/nvims4M0hP/2/Ram64.vhd
+l0
+L8 1
+VgXJlY;17Xb4LF;I0L26fV0
+!s100 gg_:9eMG?gXI@fHk9bKn=3
+R7
+33
+Z25 !s110 1602202883
+!i10b 1
+Z26 !s108 1602202883.000000
+Z27 !s90 -2008|-quiet|-lint|/tmp/nvims4M0hP/2/Ram64.vhd|
+Z28 !s107 /tmp/nvims4M0hP/2/Ram64.vhd|
+!i113 1
+R12
+R13
+Aarch
+R3
+R4
+DEx4 work 5 ram64 0 22 gXJlY;17Xb4LF;I0L26fV0
+!i122 2
+l61
+R20
+V`>^]@c<cRIR[?MDi3F3CE0
+!s100 EXo[@o=MmjB[7QJ?cW27K1
+R7
+33
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R12
+R13
+Eram8
+Z29 w1602629459
+R3
+R4
+!i122 4
+R0
+Z30 8/tmp/nvimBPYeYO/2/Ram8.vhd
+Z31 F/tmp/nvimBPYeYO/2/Ram8.vhd
+l0
+L8 1
+VZ9`llcMW^Z^VACI1_SS[c3
+!s100 R5mZ`al9n>P1>n^5Jl6z_1
+R7
+33
+!s110 1602629459
+!i10b 1
+Z32 !s108 1602629459.000000
+Z33 !s90 -2008|-quiet|-lint|/tmp/nvimBPYeYO/2/Ram8.vhd|
+Z34 !s107 /tmp/nvimBPYeYO/2/Ram8.vhd|
+!i113 1
+R12
+R13
+Aarch
+R3
+R4
+DEx4 work 4 ram8 0 22 Z9`llcMW^Z^VACI1_SS[c3
+!i122 4
+l60
+L18 77
+V]CQbYM1nWKz^^j]H1@BXd1
+!s100 6:DOWZ2=UT42iLVaTN@F>0
+R7
+33
+!s110 1602629460
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R12
+R13
+Eregister16
+Z35 w1602201940
+R3
+R4
+!i122 0
+R0
+Z36 8/tmp/nvimEgTYP3/2/Register16.vhd
+Z37 F/tmp/nvimEgTYP3/2/Register16.vhd
+l0
+L8 1
+V=^8R^bfXbk7Ve?>k@af2i3
+!s100 n^CUeJ^:id2hXcoBoB>TS3
+R7
+33
+Z38 !s110 1602201940
+!i10b 1
+Z39 !s108 1602201940.000000
+Z40 !s90 -2008|-quiet|-lint|/tmp/nvimEgTYP3/2/Register16.vhd|
+Z41 !s107 /tmp/nvimEgTYP3/2/Register16.vhd|
+!i113 1
+R12
+R13
+Aarch
+R3
+R4
+DEx4 work 10 register16 0 22 =^8R^bfXbk7Ve?>k@af2i3
+!i122 0
+l28
+Z42 L17 16
+VoOzfPHWS0hPKG:h4HTjH_1
+!s100 Qa3Z<SoOPT<Yn;eJGV:Pm1
+R7
+33
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R12
+R13
+Eregister32
+Z43 w1602204339
+R3
+R4
+!i122 3
+R0
+Z44 8/tmp/nvimYwmpSV/2/Register32.vhd
+Z45 F/tmp/nvimYwmpSV/2/Register32.vhd
+l0
+L8 1
+VC42RjmGNDWF]WjaGKUaae0
+!s100 []:^=AY8a3]ML1PkdZ@Ea3
+R7
+33
+Z46 !s110 1602204339
+!i10b 1
+Z47 !s108 1602204339.000000
+Z48 !s90 -2008|-quiet|-lint|/tmp/nvimYwmpSV/2/Register32.vhd|
+Z49 !s107 /tmp/nvimYwmpSV/2/Register32.vhd|
+!i113 1
+R12
+R13
+Aarch
+R3
+R4
+DEx4 work 10 register32 0 22 C42RjmGNDWF]WjaGKUaae0
+!i122 3
+l28
+R42
+VL0XHbH>N6KFo_7gl:N3;e0
+!s100 =I;o<1Z>?KKiHE6]aTQ1m2
+R7
+33
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R12
+R13
+Eregister64
+Z50 w1602631253
+R3
+R4
+!i122 5
+R0
+Z51 8/tmp/nvimuWIRjO/2/Register64.vhd
+Z52 F/tmp/nvimuWIRjO/2/Register64.vhd
+l0
+L8 1
+V3Q5zTCjRL0c6Y@JJ2eJFS2
+!s100 LCbS]1neA;d2ePolK?XW]3
+R7
+33
+Z53 !s110 1602631253
+!i10b 1
+Z54 !s108 1602631253.000000
+Z55 !s90 -2008|-quiet|-lint|/tmp/nvimuWIRjO/2/Register64.vhd|
+Z56 !s107 /tmp/nvimuWIRjO/2/Register64.vhd|
+!i113 1
+R12
+R13
+Aarch
+R3
+R4
+DEx4 work 10 register64 0 22 3Q5zTCjRL0c6Y@JJ2eJFS2
+!i122 5
+l28
+L17 14
+VRk92IT<]7ZmK0z^E>]7]]0
+!s100 c9EJ1e>]RZ`Ehme2lkE5n3
+R7
+33
+R53
+!i10b 1
+R54
+R55
+R56
+!i113 1
+R12
+R13

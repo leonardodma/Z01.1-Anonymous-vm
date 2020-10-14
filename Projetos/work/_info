@@ -1,0 +1,175 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/daniel/Desktop/Materias/3sem/elemsist/Z01.1-Anonymous/Projetos
+Ecounterdown
+Z1 w1602628320
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 9
+R0
+Z4 8/tmp/nvimN9xN4a/11/CounterDown.vhd
+Z5 F/tmp/nvimN9xN4a/11/CounterDown.vhd
+l0
+L7 1
+V2l>8S[_fAK:N5CIC69f0M3
+!s100 _8<`0C=R7;jA<QoiQjAa90
+Z6 OV;C;2020.1;71
+33
+Z7 !s110 1602628320
+!i10b 1
+Z8 !s108 1602628320.000000
+Z9 !s90 -2008|-quiet|-lint|/tmp/nvimN9xN4a/11/CounterDown.vhd|
+Z10 !s107 /tmp/nvimN9xN4a/11/CounterDown.vhd|
+!i113 1
+Z11 o-quiet -2008 -lint
+Z12 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+DEx4 work 11 counterdown 0 22 2l>8S[_fAK:N5CIC69f0M3
+!i122 9
+l30
+L14 27
+VBP88IR5jdX=822cUcY<`U2
+!s100 8PP0@9L:He]G<X>]fnWY70
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eregister16
+Z13 w1602628814
+R2
+R3
+!i122 21
+R0
+Z14 8/tmp/nvimAItIhD/6/Register16.vhd
+Z15 F/tmp/nvimAItIhD/6/Register16.vhd
+l0
+L8 1
+V=^8R^bfXbk7Ve?>k@af2i3
+!s100 n^CUeJ^:id2hXcoBoB>TS3
+R6
+33
+Z16 !s110 1602628814
+!i10b 1
+Z17 !s108 1602628814.000000
+Z18 !s90 -2008|-quiet|-lint|/tmp/nvimAItIhD/6/Register16.vhd|
+Z19 !s107 /tmp/nvimAItIhD/6/Register16.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 10 register16 0 22 =^8R^bfXbk7Ve?>k@af2i3
+!i122 21
+l28
+Z20 L17 16
+VoOzfPHWS0hPKG:h4HTjH_1
+!s100 Qa3Z<SoOPT<Yn;eJGV:Pm1
+R6
+33
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Eregister32
+Z21 w1602628721
+R2
+R3
+!i122 16
+R0
+Z22 8/tmp/nvimRUuQt0/2/Register32.vhd
+Z23 F/tmp/nvimRUuQt0/2/Register32.vhd
+l0
+L8 1
+VC42RjmGNDWF]WjaGKUaae0
+!s100 []:^=AY8a3]ML1PkdZ@Ea3
+R6
+33
+Z24 !s110 1602628721
+!i10b 1
+Z25 !s108 1602628721.000000
+Z26 !s90 -2008|-quiet|-lint|/tmp/nvimRUuQt0/2/Register32.vhd|
+Z27 !s107 /tmp/nvimRUuQt0/2/Register32.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 10 register32 0 22 C42RjmGNDWF]WjaGKUaae0
+!i122 16
+l28
+R20
+VL0XHbH>N6KFo_7gl:N3;e0
+!s100 =I;o<1Z>?KKiHE6]aTQ1m2
+R6
+33
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R11
+R12
+Eregister8
+Z28 w1602628898
+R2
+R3
+!i122 26
+R0
+Z29 8/tmp/nvimAItIhD/11/Register8.vhd
+Z30 F/tmp/nvimAItIhD/11/Register8.vhd
+l0
+L8 1
+VlQXFh8K>8]502Zae@[c@z0
+!s100 RH;m?0bQIi^ohZMhS9XdS0
+R6
+33
+Z31 !s110 1602628898
+!i10b 1
+Z32 !s108 1602628898.000000
+Z33 !s90 -2008|-quiet|-lint|/tmp/nvimAItIhD/11/Register8.vhd|
+!s107 /tmp/nvimAItIhD/11/Register8.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+Z34 DEx4 work 9 register8 0 22 lQXFh8K>8]502Zae@[c@z0
+!i122 26
+l28
+Z35 L17 21
+Z36 VhPW3bGAG>b`f@2836f[Xo0
+Z37 !s100 S<eGXQaemI8keDc8NKEF<2
+R6
+33
+R31
+!i10b 1
+R32
+R33
+Z38 !s107 /tmp/nvimAItIhD/11/Register8.vhd|
+!i113 1
+R11
+R12
