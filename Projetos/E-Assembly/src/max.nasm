@@ -10,3 +10,17 @@
 ; Estamos considerando número inteiros
 
  
+leaw $0, %A 
+movw (%A), %D 
+leaw $2, %A
+movw %D, (%A) 
+leaw $1, %A 
+subw (%A), %D, %D 
+leaw $END, %A 
+jle 
+nop 
+leaw $1, %A
+movw (%A), %D
+leaw %2, %A
+movw %D, (%A)
+END:
