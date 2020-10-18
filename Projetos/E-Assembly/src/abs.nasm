@@ -7,12 +7,13 @@
 
 leaw $1, %A
 movw (%A), %D
-leaw $else, %A
+leaw $ELSE, %A
 
 jge %D
 nop
+IF:
 negw %D
 
-else:
+ELSE:
 leaw $0, %A
 movw %D, (%A)
