@@ -10,3 +10,24 @@
 ; 4  % 3 = 1
 ; 10 % 7 = 3
 ; ------------------------------------------------------------
+
+leaw $0, %A
+movw $0, (%A)
+leaw $1, %A
+movw (%A), %D
+leaw $2, %A
+subw %D, %A, %D
+leaw $else, %A
+jge %D
+nop 
+if:
+leaw $0, %A
+movw $1, (%A)
+leaw $end, %A
+jmp 
+nop
+
+else:
+leaw $0, %A
+movw $-1, (%A)
+end:
