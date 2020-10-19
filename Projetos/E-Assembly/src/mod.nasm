@@ -12,22 +12,14 @@
 ; ------------------------------------------------------------
 
 leaw $0, %A
-movw $0, (%A)
-leaw $1, %A
 movw (%A), %D
+WHILE:
 leaw $2, %A
-subw %D, %A, %D
-leaw $else, %A
-jge %D
+movw %D, (%A)
+leaw $1, %A 
+subw %D, (%A), %D
+leaw $WHILE, %A 
+jge
 nop 
-if:
-leaw $0, %A
-movw $1, (%A)
-leaw $end, %A
-jmp 
-nop
 
-else:
-leaw $0, %A
-movw $-1, (%A)
-end:
+
