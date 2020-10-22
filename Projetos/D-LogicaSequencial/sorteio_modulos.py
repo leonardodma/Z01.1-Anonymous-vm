@@ -23,7 +23,9 @@ assign={"Dani":[],
         "Leo":[],
         "Joao":[]}
 
-qtd=int(round(mean(len(modulos)/len(assign))))
+qtd=int(round(len(modulos)/len(assign)))
+print(qtd)
+
 
 while modulos != []:
     for i in assign.keys():
