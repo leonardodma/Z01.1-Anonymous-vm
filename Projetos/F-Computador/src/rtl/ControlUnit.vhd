@@ -21,7 +21,7 @@ entity ControlUnit is
                                                                      -- reg. A e Mem. RAM para ALU
                                                                      -- A  e Mem. RAM para ALU
 		zx, nx, zy, ny, f, no       : out STD_LOGIC;                     -- sinais de controle da ALU
-		loadA, loadD, loadM, loadPC : out STD_LOGIC               -- sinais de load do reg. A,
+		loadA, loadD, loadM, loadPC : out STD_LOGIC                      -- sinais de load do reg. A,
                                                                      -- reg. D, Mem. RAM e Program Counter
     );
 end entity;
@@ -29,6 +29,6 @@ end entity;
 architecture arch of ControlUnit is
 
 begin
-
+  loadD <= istruction(17) and instruction(4);
 
 end architecture;
