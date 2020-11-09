@@ -17,7 +17,16 @@ public class Code {
      */
     public static String dest(String[] mnemnonic) {
         /* TODO: implementar */
-    	return "";
+        switch (mnemnonic[1]){
+            case "jmp": return "111";
+            case "jle": return "110";
+            case "jne": return "101";
+            case "jl": return "100";
+            case "jge": return "011";
+            case "je": return "010";
+            case "jg": return "001";
+            default: return "000";
+        }
     }
 
     /**
@@ -37,7 +46,16 @@ public class Code {
      */
     public static String jump(String[] mnemnonic) {
         /* TODO: implementar */
-    	return "";
+        switch (mnemnonic[0]){
+            case "jmp": return "111";
+            case "jle": return "110";
+            case "jne": return "101";
+            case "jl": return "100";
+            case "jge": return "011";
+            case "je": return "010";
+            case "jg": return "001";
+            default: return "000";
+        }
     }
 
     /**
