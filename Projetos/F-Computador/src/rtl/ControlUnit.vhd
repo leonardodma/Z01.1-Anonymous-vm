@@ -53,7 +53,4 @@ begin
 		    '0';
 
 
-
-
-
 end architecture;
