@@ -10,116 +10,27 @@
 
 WHILE:
 leaw $1, %A
-movw (%A), %D
+movw (%A), %D ; D = RAM[1]
 leaw $0, %A
-subw (%A), %D, %D
+subw (%A), %D, %D ; D = RAM[0] - RAM[1]
 
 leaw $IF, %A
-jge %D
+jge %D ; Pula para o if se D for maior igual a zero 
 nop
-leaw $END, %A
+
+leaw $END, %A ; Termina o código caso o contrário
 jmp
 nop
 
 IF:
     leaw $0, %A
-    movw %D, (%A)
+    movw %D, (%A) ; RAM[0] = RAM[0] - RAM[1]
     leaw $2, %A
-    movw (%A), %D
-    incw %D
-    movw %D, (%A)
+    movw (%A), %D ; D = RAM[2]
+    incw %D       ; D = RAM[2] - 1
+    movw %D, (%A) ; RAM[2] = RAM[2] - 1
     leaw $WHILE, %A
     jmp
     nop
 
 END:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
