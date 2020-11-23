@@ -1,1 +1,38 @@
-function div 2
+// local 0 = temp[0]                     
+// local 1 = temp[1]                      
+// local 2 = quantas vezes coube 
+
+
+function div 3
+
+    push argument 0 
+    push argument 1 
+    push constant 0
+    pop local 2                       // Instanciando que local 2 começa em 0
+    pop local 1                       // Passando o argumento 1 para local 1
+    pop local 0                       // Passando o argumento 0 para local 0
+
+
+    label WHILE
+
+        push local 0
+        push local 1
+        lt 
+        if-goto END
+
+        push constant 1
+        push local 2
+        add
+        pop local 2
+
+        push local 0
+        push local 1
+        sub
+        pop local 0       
+
+        goto WHILE
+
+
+    label END
+        push local 2
+        return 

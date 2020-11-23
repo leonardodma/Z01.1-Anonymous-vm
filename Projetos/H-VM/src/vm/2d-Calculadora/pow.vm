@@ -1,1 +1,33 @@
 function pow 3
+    
+
+    push argument 0
+    push argument 1
+    pop local 1
+    pop local 0
+
+    push local 0
+    pop local 2
+
+    label WHILE
+        push local 0
+        push local 2
+        call mult 2
+        pop local 2                 // local 2 = 9 no primeiro loop
+
+        push local 1
+        push constant 1
+        sub                         
+        pop local 1                 // local 1 = 2 no primeiro loop
+
+        push local 1
+        push constant 1
+        eq
+        if-goto END
+
+        goto WHILE
+
+
+    label END
+	    push local 2
+	    return
